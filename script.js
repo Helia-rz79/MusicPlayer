@@ -3,86 +3,86 @@ const musicData = [
         id: 1,
         title: "Khoshhalam Barat",
         artist: "Shadmehr Aghili",
-        cover: "img/1.webp",
-        audio: "music/Shadmehr-Aghili-Khoshhalam-Barat.mp3"
+        cover: "src/img/1.webp",
+        audio: "src/music/Shadmehr-Aghili-Khoshhalam-Barat.mp3"
     },
     {
         id: 2,
         title: "Tasvir",
         artist: "Shadmehr Aghili",
-        cover: "img/2.jpg",
-        audio: "music/Shadmehr-Aghili-Tasvir.mp3"
+        cover: "src/img/2.jpg",
+        audio: "src/music/Shadmehr-Aghili-Tasvir.mp3"
     },
     {
         id: 3,
         title: "Harighe Sabz",
         artist: "Ebi",
-        cover: "img/3.webp",
-        audio: "music/ebi_harighe_sabz.mp3"
+        cover: "src/img/3.webp",
+        audio: "src/music/ebi_harighe_sabz.mp3"
     },
     {
         id: 4,
         title: "Noono Paniro Sabzi",
         artist: "Ebi & Dariush",
-        cover: "img/4.jpg",
-        audio: "music/dariush_ebi_-_noon_o_panir_o_sabzi.mp3"
+        cover: "src/img/4.jpg",
+        audio: "src/music/dariush_ebi_-_noon_o_panir_o_sabzi.mp3"
     },
     {
         id: 5,
         title: "Man Bayad Miraftam",
         artist: "Mohsen Chavoshi",
-        cover: "img/5.jpg",
-        audio: "music/Mohsen-Chavoshi-Man-Bayad-Miraftam.mp3"
+        cover: "src/img/5.jpg",
+        audio: "src/music/Mohsen-Chavoshi-Man-Bayad-Miraftam.mp3"
     },
     {
         id: 6,
         title: "Ba To Inam",
         artist: "Hamim",
-        cover: "img/6.jpg",
-        audio: "music/Haamim-Ba-To-Inam.mp3"
+        cover: "src/img/6.jpg",
+        audio: "src/music/Haamim-Ba-To-Inam.mp3"
     },
     {
         id: 7,
         title: "Taghvime Mochaleh",
         artist: "Mohsen Yegane",
-        cover: "img/7.jpg",
-        audio: "music/Mohsen-Yeganeh-Taghvime-Mochaleh.mp3"
+        cover: "src/img/7.jpg",
+        audio: "src/music/Mohsen-Yeganeh-Taghvime-Mochaleh.mp3"
     },
     {
         id: 8,
         title: "Bad Az To",
         artist: "Mohsen Chavoshi",
-        cover: "img/8.jpg",
-        audio: "music/Mohsen-Chavoshi-Bad-Az-To.mp3"
+        cover: "src/img/8.jpg",
+        audio: "src/music/Mohsen-Chavoshi-Bad-Az-To.mp3"
     },
 
     {
         id: 9,
         title: "To Khoob",
         artist: "Mohsen Yegane",
-        cover: "img/9.jpg",
-        audio: "music/Mohsen-Yeganeh-To-Khoob.mp3"
+        cover: "src/img/9.jpg",
+        audio: "src/music/Mohsen-Yeganeh-To-Khoob.mp3"
     },
     {
         id: 10,
         title: "Ghalbe Mani",
         artist: "Hamim",
-        cover: "img/10.jpg",
-        audio: "music/Haamim-Ghalbe-Mani.mp3"
+        cover: "src/img/10.jpg",
+        audio: "src/music/Haamim-Ghalbe-Mani.mp3"
     },
     {
         id: 11,
         title: "Hezaro Yek Shab",
         artist: "Erfan Tahmasbi",
-        cover: "img/11.jpg",
-        audio: "music/Erfan-Tahmasbi-Hezaro-Yek-Shab.mp3"
+        cover: "src/img/11.jpg",
+        audio: "src/music/Erfan-Tahmasbi-Hezaro-Yek-Shab.mp3"
     },
     {
         id: 12,
         title: "Delgir",
         artist: "Erfan Tahmasbi",
-        cover: "img/12.jpg",
-        audio: "music/Erfan-Tahmasbi-Delgir.mp3"
+        cover: "src/img/12.jpg",
+        audio: "src/music/Erfan-Tahmasbi-Delgir.mp3"
     },
 ]
 
