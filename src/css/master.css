@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.bt{
+    font-size: 30px;
+}
+.bt1{
+    font-size: 35px;
+}
+
+
+
+@layer components {
+    .btn {
+        @apply border-2 text-white bg-transparent font-bold py-2 px-4 mr-3 rounded-[30px] w-[200px] h-[50px] justify-center items-center;
+    }
+
+    .center {
+        @apply flex justify-center items-center;
+    }
+    .flx{
+        @apply flex flex-wrap;
+    }
+    .af{
+        @apply after:content-[''] after:w-full after:h-full after:bg-black after:opacity-[.3] after:absolute after:top-0 after:left-0 ;
+    }
+    
+    .bg{
+        @apply flex w-[40px] h-[40px] rounded-[50%] mt-2 ;
+    }
+}

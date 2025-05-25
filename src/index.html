@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicPlayer</title>
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="fontello/css/fontello.css">
+    <link rel="icon" href="img/RJ.jpg">
+</head>
+
+<body class="min-h-screen overflow-x-hidden">
+    <main class=" 2xl:max-w-screen-2xl 2xl:container mx-auto bg-[#1b1b1b]">
+        <div class="w-full flex h-full">
+            <section class="w-[30%] md:w-[20%] h-full fixed top-0 left-0 bg-black p-2">
+                <figure class="w-full my-4">
+                    <img src="img/logo.png" alt="">
+                </figure>
+                <ul
+                    class="w-[90%] mx-auto pl-3 *:mb-5 *:text-gray-300 *:hover:bg-neutral-900 *:cursor-pointer *:w-[70%] *:h-[35px] *:flex *:items-center *:transition-all *:duration-300">
+                    <li><span class="icon-home mr-2"></span>Home</li>
+                    <li><span class="icon-folder mr-2"></span>Browse</li>
+                    <li><span class="icon-search mr-2"></span>Search</li>
+                    <li><span class="icon-ticket mr-2"></span>Event</li>
+                    <li><span class="icon-note mr-2"></span>My Music</li>
+                </ul>
+            </section>
+            <section
+                class="w-[80%] relative min-h-[120vh] mb-[120px] left-[30%] md:left-[20%] h-fit pb-2 lg:ml-5 flex overflow-y-scroll">
+                <div class="p-5">
+                    <h1 class="text-white mb-3 text-xl">Popular Tracks</h1>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 lg:gap-10"
+                        id="music-grid">
+                        <!-- Music cards added dynamically -->
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section
+            class="w-full fixed bottom-0 left-0 h-[120px] border-t border-t-neutral-600 bg-[#161515] flex justify-around gap-20 ">
+            <div class="w-[15%] now-playing flex items-center space-x-4">
+                <img class="flex w-1/2 h-[70%] object-cover" src="img/RJ.jpg" alt="Now Playing"
+                    class="w-12 h-12 rounded">
+                <div>
+                    <h4 class="font-semibold text-white">Now Playing</h4>
+                    <p class=" mt-1 text-sm text-neutral-400">Artist Name</p>
+                </div>
+            </div>
+            <div class="w-1/3">
+                <div class="w-full flex justify-center text-center mt-5 *:text-white *:cursor-pointer">
+                    <button id="prev-btn" class="icon-to-start bt"></button>
+                    <button id="play-btn" class="bt1 flex"><i class="icon-play"></i></button>
+                    <button id="next-btn" class="icon-to-end bt"></button>
+                </div>
+                <div class="line mt-3 w-full h-[4px] relative cursor-pointer">
+                    <div id="line" class=" w-full h-[80%] bg-neutral-300"></div>
+                    <div id="fill" class="w-[0%] h-[80%] bg-white absolute top-0"></div>
+                    <div id="Fbtn" class="w-[10px] h-[10px] bg-white rounded-full absolute top-[-4px] left-0"></div>
+                </div>
+                <div class="time *:text-neutral-500 mt-2 w-full relative text-[14px] *:absolute *:top-0">
+                    <span id="Tpast" class="left-0">0:00</span>
+                    <span id="Tleft" class="right-0">-0:00</span>
+                </div>
+            </div>
+            <div class="w-[10%] mt-16 flex">
+                <span class="icon-volume text-neutral-300"></span>
+                <div class="mt-2 ml-2 w-[80%] h-[4px] relative cursor-pointer">
+                    <div id="volume" class="relative w-full h-[80%] bg-neutral-600">
+                        <div id="volume-fill" class="w-[50%] h-[80%] bg-white absolute top-0 "></div>
+                        <div id="volume-btn" class="w-[10px] h-[10px] bg-white rounded-full absolute top-[-4px] left-[50%]">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
